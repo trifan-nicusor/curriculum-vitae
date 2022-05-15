@@ -328,7 +328,7 @@ body {
 .institution-name {
     font-size: 12px;
     display: block;
-    height: 14px;
+    height: 16px;
     width: 270px;
     font-weight: 600;
 }
@@ -337,6 +337,16 @@ body {
     display: block;
     height: 16px;
     font-size: 10px;
+}
+
+.item-list-content {
+    margin-left: 36px;
+    height: 30px;
+}
+
+.left-content-bar {
+    height: 100%;
+    border: 1px solid black;
 }
 
 
