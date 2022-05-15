@@ -12,7 +12,7 @@
 <body>
     <div class="main-container">
         <div class="row">
-            <div class="col-lg-5 col-md-5 col-xs-6 left-column">
+            <div id="left-column" class="col-lg-5 col-md-5 col-xs-6">
                 <div class="top-section">
                     <div class="left-top-container d-flex flex-column align-items-center justify-content-center">
                         <div class="photo-wrapper">
@@ -27,30 +27,28 @@
                 <div class="bottom-section">
                     <div class="containers-wrapper">
                         <div class="personal-info-container d-flex align-items-center">
-                            <div class="personal-info-content">
-                                <ul class="personal-info-list">
-                                    <li class="phone-number">
-                                        <img src="assets/info-img/phone-icon.png" alt="phone-icon">
-                                        <span>+40 753 017 916</span>
-                                    </li>
-                                    <li class="email">
-                                        <img src="assets/info-img/email-icon.png" alt="email-icon">
-                                        <span>nicusormadalintrifan@gmail.com</span>
-                                    </li>
-                                    <li class="address d-flex">
-                                        <img src="assets/info-img/address-icon.png" alt="address-icon">
-                                        <span>Domneasca 8, Bloc P6, Galati, Romania </span>
-                                    </li>
-                                    <li class="github">
-                                        <img src="assets/info-img/github-logo.png" alt="github-icon">
-                                        <span>github.com/trifan-nicusor</span>
-                                    </li>
-                                    <li class="linkedin">
-                                        <img src="assets/info-img/linkedin-logo.png" alt="linkedin-icon">
-                                        <span>linkedin.com/in/trifan-nicusor</span>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul class="personal-info-list">
+                                <li class="phone-number">
+                                    <img src="assets/info-img/phone-icon.png" alt="phone-icon">
+                                    <span>+40 753 017 916</span>
+                                </li>
+                                <li class="email">
+                                    <img src="assets/info-img/email-icon.png" alt="email-icon">
+                                    <span>nicusormadalintrifan@gmail.com</span>
+                                </li>
+                                <li class="address d-flex">
+                                    <img src="assets/info-img/address-icon.png" alt="address-icon">
+                                    <span>Domneasca 8, Bloc P6, Galati, Romania </span>
+                                </li>
+                                <li class="github">
+                                    <img src="assets/info-img/github-logo.png" alt="github-icon">
+                                    <span>github.com/trifan-nicusor</span>
+                                </li>
+                                <li class="linkedin">
+                                    <img src="assets/info-img/linkedin-logo.png" alt="linkedin-icon">
+                                    <span>linkedin.com/in/trifan-nicusor</span>
+                                </li>
+                            </ul>
                         </div>
                         <div class="languages-container d-flex align-items-center">
                             <div class="languages-content">
@@ -139,7 +137,7 @@
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="github d-flex justify-content-between align-items-center">
+                                            <div class="git d-flex justify-content-between align-items-center">
                                                 <span>git</span>
                                                 <div class="level-bar">
                                                     <div class="filling-level"></div>
@@ -152,11 +150,96 @@
                         </div>
                     </div>
                 </div>
-                <div class="left-bottom-container">
+            </div>
+            <div id="right-column" class="col-lg-7 col-md-7 col-xs-6">
+                <div class="about-me-container d-flex align-items-center">
+                    <div class="about-me-content d-flex flex-column">
+                        <div class="header d-flex align-items-center">
+                            <div class="icon-border">
+                                <div class="header-icon d-flex justify-content-center align-items-center">
+                                    <img src="assets/bio-icon.png" alt="bio-icon">
+                                </div>
+                            </div>
+                            <div class="title">
+                                <span>about me</span>
+                            </div>
+                        </div>
+                        <div class="about-me-text">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                                a galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                                Lorem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-container d-flex flex-column justify-content-center">
+                    <div class="education-content d-flex flex-column">
+                        <div class="header d-flex align-items-center">
+                            <div class="icon-border">
+                                <div class="header-icon d-flex justify-content-center align-items-center">
+                                    <img src="assets/education-icon.png" alt="bio-icon">
+                                </div>
+                            </div>
+                            <div class="title">
+                                <span>education</span>
+                            </div>
+                        </div>
+                        <ul class="education-list">
+                            <li>
+                                <div class="item-list">
+                                    <div class="item-list-header d-flex align-items-center">
+                                        <div class="dot-outline d-flex justify-content-center align-items-center">
+                                            <div class="dot"></div>
+                                        </div>
+                                        <span class="institution-name">Scoala Gimnaziala "Slobozia Conachi"</span>
+                                        <span class="date-start-finish">september 2011 - june 2015</span>
+                                    </div>
+                                    <div class="item-list-content">
+                                        <div class="left-content-bar"></div>
+                                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-list">
+                                    <div class="item-list-header d-flex align-items-center">
+                                        <div class="dot-outline d-flex justify-content-center align-items-center">
+                                            <div class="dot"></div>
+                                        </div>
+                                        <span class="institution-name">Liceul Teoretic "Mircea Eliade"</span>
+                                        <span class="date-start-finish">september 2015 - june 2019</span>
+                                    </div>
+                                    <div class="item-list-content">
+                                        <div class="left-content-bar"></div>
+                                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-list">
+                                    <div class="item-list-header d-flex align-items-center">
+                                        <div class="dot-outline d-flex justify-content-center align-items-center">
+                                            <div class="dot"></div>
+                                        </div>
+                                        <span class="institution-name">Facultatea ACIEE</span>
+                                        <span class="date-start-finish">september 2020 - </span>
+                                    </div>
+                                    <div class="item-list-content">
+                                        <div class="left-content-bar"></div>
+                                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-container">
 
                 </div>
-            </div>
-            <div class="col-lg-7 col-md-7 col-xs-6 right-column">
             </div>
         </div>
     </div>

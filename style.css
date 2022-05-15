@@ -6,10 +6,9 @@ body {
     margin-top: 36px;
 }
 
-.left-column,
-.right-column {
+#left-column,
+#right-column {
     padding: 0 !important;
-    border: 2px solid black;
     background-color: #ecf0f6;
 }
 
@@ -93,7 +92,7 @@ body {
     background-color: white;
 }
 
-/* first container */
+/* personal info container */
 .personal-info-container {
     height: 200px;
     border-bottom: 2px solid gainsboro;
@@ -127,7 +126,7 @@ body {
     top: 2px;
 }
 
-/* second and third container */
+/* languages and skills container */
 .languages-container,
 .skills-container {
     height: 200px;
@@ -142,8 +141,11 @@ body {
     font-family: sans-serif;
 }
 
+.skills-content {
+    height: 160px;
+}
 /* header */
-.header {
+#left-column .header {
     height: 40px;
     width: 100%;
 }
@@ -162,7 +164,7 @@ body {
     max-height: 20px;
 }
 
-.title span {
+#left-column .title span {
     padding-left: 6px;
     font-weight: 700;
     font-size: 14px;
@@ -172,9 +174,13 @@ body {
 .languages-list ul,
 .skill-list ul {
     list-style: none;
-    height: 110px;
+    height: 70px;
     margin: 0;
     padding: 0 50px 0 60px;
+}
+
+.skill-list ul {
+    height: 120px;
 }
 
 .languages-list span,
@@ -196,6 +202,176 @@ body {
 .filling-level {
     border-radius: 6px;
     height: 100%;
-    width: 50%;
     background-color: black;
+}
+
+/* languages setting filling level */
+.romanian .filling-level {
+    width: 100%;
+}
+
+.english .filling-level {
+    width: 70%;
+}
+
+.french .filling-level {
+    width: 25%;
+}
+
+/* skills setting filling level*/
+.html .filling-level {
+    width: 80%;
+}
+
+.css .filling-level {
+    width: 80%;
+}
+
+.java .filling-level {
+    width: 70%;
+}
+
+.javascript .filling-level {
+    width: 50%;
+}
+
+.git .filling-level {
+    width: 60%;
+}
+
+/* right column */
+#right-column {
+    font-family: sans-serif;
+}
+
+/* headers */
+#right-column .header {
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.icon-border {
+    border: 3px solid rosybrown;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 0 16px;
+}
+
+.header-icon {
+    height: 44px;
+    width: 44px;
+    background-color: rosybrown;
+    border-radius: 50%;
+}
+
+.header-icon img {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+/* about me section */
+.about-me-container {
+    height: 300px;
+}
+
+.about-me-content {
+    height: 250px;
+}
+
+.about-me-text p {
+    height: 190px;
+    font-size: 14px;
+    text-indent: 40px;
+    font-weight: 500;
+    margin: 0 20px 0 44px;
+}
+
+/* education section */
+.education-container {
+    background-color: grey;
+    height: 350px;
+}
+
+.education-content {
+    height: 300px;
+}
+
+.education-list {
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+
+.item-list-header {
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.dot-outline {
+    height: 16px;
+    width: 16px;
+    border: 3px solid rosybrown;
+    border-radius: 50%;
+    margin: 0 10px 0 36px;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    background-color: rosybrown;
+    border-radius: 50%;
+}
+
+.institution-name {
+    font-size: 12px;
+    display: block;
+    height: 14px;
+    width: 270px;
+    font-weight: 600;
+}
+
+.date-start-finish {
+    display: block;
+    height: 16px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* experience section*/
+.experience-container {
+    height: 358px;
+    background-color: blanchedalmond;
 }
