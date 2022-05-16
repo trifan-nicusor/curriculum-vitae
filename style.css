@@ -95,7 +95,6 @@ body {
 /* personal info container */
 .personal-info-container {
     height: 200px;
-    border-bottom: 2px solid gainsboro;
 }
 
 .personal-info-list {
@@ -272,37 +271,15 @@ body {
     max-width: 30px;
 }
 
-/* about me section */
-.about-me-container {
-    height: 300px;
-}
-
-.about-me-content {
-    height: 250px;
-}
-
-.about-me-text p {
-    height: 190px;
-    font-size: 14px;
-    text-indent: 40px;
-    font-weight: 500;
-    margin: 0 20px 0 44px;
-}
-
-/* education section */
-.education-container {
-    background-color: grey;
-    height: 350px;
-}
-
-.education-content {
-    height: 300px;
-}
-
-.education-list {
+/* list */
+.right-column-list {
     padding: 0;
     list-style: none;
     font-size: 14px;
+}
+
+.right-column-list li {
+    margin: 4px 0;
 }
 
 .item-list-header {
@@ -330,58 +307,60 @@ body {
     display: block;
     height: 16px;
     width: 270px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .date-start-finish {
     display: block;
     height: 16px;
-    font-size: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    border-left: 1px solid darkgray;
+    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .item-list-content {
-    margin-left: 36px;
-    height: 30px;
+    margin-left: 43px;
+    border-left: 3px solid rosybrown;
 }
 
-.left-content-bar {
-    height: 100%;
-    border: 1px solid black;
+.item-list-content span {
+    display: block;
+    margin-left: 18px;
 }
 
+.last-list-item {
+    border-left: none;
+}
 
+/* about me section */
+.about-me-container {
+    height: 300px;
+}
 
+.about-me-content {
+    height: 190px;
+}
 
+.about-me-text p {
+    height: 140px;
+    font-size: 14px;
+    text-indent: 40px;
+    font-weight: 500;
+    margin: 0 20px 0 44px;
+}
 
+/* education section */
+.education-container {
+    height: 300px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.education-content {
+    height: 250px;
+}
 
 /* experience section*/
 .experience-container {
-    height: 358px;
-    background-color: blanchedalmond;
+    height: 408px;
 }
