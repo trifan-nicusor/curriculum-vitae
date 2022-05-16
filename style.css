@@ -11,12 +11,13 @@ body {
     margin-top: 36px;
     box-shadow: 10px -0px 40px rgba(0, 0, 0, 0.3);
     font-family: Roboto, sans-serif;
+    color: #071013;
 }
 
 #left-column,
 #right-column {
     padding: 0 !important;
-    background-color: #e5eef4;
+    background-color: #FFFFFF;
 }
 
 /* phone portrait */
@@ -58,7 +59,7 @@ body {
 
 /* left column top section */
 .photo-wrapper {
-    border: 4px solid black;
+    border: 4px solid #508484;
     border-radius: 50%;
     padding: 4px;
     margin: 50px 0 30px 0;
@@ -68,11 +69,11 @@ body {
     max-width: 150px;
     max-height: 150px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid #508484;
 }
 
 .name-section {
-    border-bottom: 2px solid darkgray;
+    border-bottom: 2px solid #508484;
 }
 
 .name {
@@ -91,28 +92,36 @@ body {
 /* left column bottom section */
 .bottom-section {
     height: 600px;
-    background-color: white;
 }
 
 /* personal info container */
 .personal-info-container {
     height: 200px;
-    border-bottom: 2px solid gainsboro;
+    border-bottom: 2px solid #508484;
     font-weight: 800;
 }
 
 .personal-info-list {
     list-style: none;
     width: 100%;
-    height: 130px;
+    height: 150px;
     margin: 0 auto;
     padding-left: 34px;
     line-height: 24px;
 }
 
+.image-wrapper {
+    height: 28px;
+    width: 28px;
+    background-color: #508484;
+    border-radius: 100%;
+    margin: 1px 0;
+}
+
 .personal-info-list img {
     max-height: 20px;
     max-width: 20px;
+    background-color: #508484;
 }
 
 .personal-info-list span{
@@ -120,19 +129,14 @@ body {
     padding-left: 6px;
 }
 
-.address img {
-    position: relative;
-    max-width: 24px;
-    max-height: 24px;
-    right: 2px;
-    top: 2px;
+/* languages and skills container */
+.languages-container {
+    height: 200px;
+    border-bottom: 2px solid #508484;
 }
 
-/* languages and skills container */
-.languages-container,
 .skills-container {
     height: 200px;
-    border-bottom: 2px solid gainsboro;
 }
 
 .languages-content,
@@ -153,12 +157,16 @@ body {
 }
 
 .left-side-bar {
-    border-left: 6px solid black;
+    border-left: 6px solid #508484;
     height: 100%;
 }
 
 .title-icon {
-    padding-left: 28px;
+    margin-left: 24px;
+    height: 28px;
+    width: 28px;
+    background-color: #508484;
+    border-radius: 100%;
 }
 
 .title-icon img {
@@ -178,7 +186,7 @@ body {
     list-style: none;
     height: 70px;
     margin: 0;
-    padding: 0 50px 0 60px;
+    padding: 0 50px 0 68px;
 }
 
 .skill-list ul {
@@ -195,7 +203,7 @@ body {
 .level-bar {
     height: 13px;
     width: 80px;
-    border: 2px solid black;
+    border: 2px solid #508484;
     border-radius: 6px;
     padding: 1px;
 }
@@ -203,7 +211,7 @@ body {
 .filling-level {
     border-radius: 6px;
     height: 100%;
-    background-color: black;
+    background-color: #508484;
 }
 
 /* languages setting filling level */
@@ -251,7 +259,7 @@ body {
 }
 
 .icon-border {
-    border: 3px solid rosybrown;
+    border: 3px solid #508484;
     padding: 3px;
     border-radius: 50%;
     margin: 0 16px;
@@ -260,7 +268,7 @@ body {
 .header-icon {
     height: 44px;
     width: 44px;
-    background-color: rosybrown;
+    background-color: #508484;
     border-radius: 50%;
 }
 
@@ -288,7 +296,7 @@ body {
 .dot-outline {
     height: 16px;
     width: 16px;
-    border: 3px solid rosybrown;
+    border: 3px solid #508484;
     border-radius: 50%;
     margin: 0 10px 0 36px;
 }
@@ -296,7 +304,7 @@ body {
 .dot {
     height: 6px;
     width: 6px;
-    background-color: rosybrown;
+    background-color: #508484;
     border-radius: 50%;
 }
 
@@ -312,14 +320,14 @@ body {
     display: block;
     height: 16px;
     font-size: 11px;
-    border-left: 1px solid darkgray;
+    border-left: 1px solid #508484;
     padding-left: 20px;
     margin-left: 20px;
 }
 
 .item-list-content {
     margin-left: 43px;
-    border-left: 3px solid rosybrown;
+    border-left: 3px solid #508484;
 }
 
 .item-list-content span {
