@@ -1,15 +1,22 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
 body {
     height: 100vh;
 }
 
 .main-container {
     margin-top: 36px;
+    box-shadow: 10px -0px 40px rgba(0, 0, 0, 0.3);
+    font-family: Roboto, sans-serif;
 }
 
 #left-column,
 #right-column {
     padding: 0 !important;
-    background-color: #ecf0f6;
+    background-color: #e5eef4;
 }
 
 /* phone portrait */
@@ -50,10 +57,6 @@ body {
 }
 
 /* left column top section */
-.left-top-container {
-    font-family: sans-serif;
-}
-
 .photo-wrapper {
     border: 4px solid black;
     border-radius: 50%;
@@ -76,14 +79,13 @@ body {
     font-size: 30px;
     display: block;
     text-align: center;
-    font-weight: 500;
     line-height: 40px;
+    font-weight: 600;
 }
 
 .job-title {
     padding-top: 14px;
     padding-bottom: 30px;
-    font-weight: 500;
 }
 
 /* left column bottom section */
@@ -95,6 +97,8 @@ body {
 /* personal info container */
 .personal-info-container {
     height: 200px;
+    border-bottom: 2px solid gainsboro;
+    font-weight: 800;
 }
 
 .personal-info-list {
@@ -112,8 +116,7 @@ body {
 }
 
 .personal-info-list span{
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 13px;
     padding-left: 6px;
 }
 
@@ -137,7 +140,7 @@ body {
     height: 150px;
     width: 100%;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-weight: 700;
 }
 
 .skills-content {
@@ -165,8 +168,8 @@ body {
 
 #left-column .title span {
     padding-left: 6px;
-    font-weight: 700;
     font-size: 14px;
+    font-weight: bold;
 }
 
 /* list */
@@ -186,7 +189,6 @@ body {
 .skill-list span {
     height: 100%;
     font-size: 11px;
-    font-weight: bold;
     line-height: 24px;
 }
 
@@ -239,17 +241,13 @@ body {
 }
 
 /* right column */
-#right-column {
-    font-family: sans-serif;
-}
-
 /* headers */
 #right-column .header {
     height: 60px;
     text-transform: uppercase;
-    font-weight: 700;
     width: 100%;
     margin-bottom: 20px;
+    font-weight: 900;
 }
 
 .icon-border {
@@ -307,14 +305,13 @@ body {
     display: block;
     height: 16px;
     width: 270px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .date-start-finish {
     display: block;
     height: 16px;
     font-size: 11px;
-    font-weight: 600;
     border-left: 1px solid darkgray;
     padding-left: 20px;
     margin-left: 20px;
@@ -328,6 +325,7 @@ body {
 .item-list-content span {
     display: block;
     margin-left: 18px;
+    font-weight: 500;
 }
 
 .last-list-item {
@@ -347,8 +345,8 @@ body {
     height: 140px;
     font-size: 14px;
     text-indent: 40px;
-    font-weight: 500;
     margin: 0 20px 0 44px;
+    font-weight: 600;
 }
 
 /* education section */
