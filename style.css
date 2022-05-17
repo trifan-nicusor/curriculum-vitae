@@ -47,6 +47,10 @@ body {
     .main-container {
         margin: 0;
     }
+
+    .about-me-text {
+        margin-right: 40px;
+    }
 }
 
 /* desktop - large */
@@ -96,7 +100,6 @@ body {
 
 /* personal info container */
 .personal-info-container {
-    height: 200px;
     border-bottom: 2px solid #508484;
     font-weight: 800;
 }
@@ -105,7 +108,7 @@ body {
     list-style: none;
     width: 100%;
     height: 150px;
-    margin: 0 auto;
+    margin: 24px auto;
     padding-left: 34px;
     line-height: 24px;
 }
@@ -131,25 +134,17 @@ body {
 
 /* languages and skills container */
 .languages-container {
-    height: 200px;
     border-bottom: 2px solid #508484;
-}
-
-.skills-container {
-    height: 200px;
 }
 
 .languages-content,
 .skills-content {
-    height: 150px;
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
+    margin: 24px auto;
 }
 
-.skills-content {
-    height: 160px;
-}
 /* header */
 #left-column .header {
     height: 40px;
@@ -162,7 +157,7 @@ body {
 }
 
 .title-icon {
-    margin-left: 24px;
+    margin-left: 28px;
     height: 28px;
     width: 28px;
     background-color: #508484;
@@ -288,6 +283,10 @@ body {
     margin: 4px 0;
 }
 
+.item-list {
+    margin-right: 20px;
+}
+
 .item-list-header {
     height: 30px;
     text-transform: uppercase;
@@ -295,8 +294,8 @@ body {
 
 .dot-outline {
     height: 16px;
-    width: 16px;
-    border: 3px solid #508484;
+    width: 18px;
+    border: 2px solid #508484;
     border-radius: 50%;
     margin: 0 10px 0 36px;
 }
@@ -311,22 +310,22 @@ body {
 .institution-name {
     font-size: 12px;
     display: block;
-    height: 16px;
-    width: 270px;
+    width: 50%;
     font-weight: 600;
 }
 
 .date-start-finish {
     display: block;
-    height: 16px;
+    width: 50%;
     font-size: 11px;
-    border-left: 1px solid #508484;
+    border-left: 2px solid #508484;
     padding-left: 20px;
     margin-left: 20px;
 }
 
 .item-list-content {
-    margin-left: 43px;
+    margin-left: 42px;
+    padding-right: 40px;
     border-left: 3px solid #508484;
 }
 
@@ -340,33 +339,21 @@ body {
     border-left: none;
 }
 
-/* about me section */
 .about-me-container {
-    height: 300px;
-}
-
-.about-me-content {
-    height: 190px;
+    margin: 42px 0;
 }
 
 .about-me-text p {
-    height: 140px;
     font-size: 14px;
     text-indent: 40px;
-    margin: 0 20px 0 44px;
+    margin: 0 30px 0 44px;
     font-weight: 600;
 }
 
-/* education section */
 .education-container {
-    height: 300px;
+    margin: 16px 0;
 }
 
-.education-content {
-    height: 250px;
-}
-
-/* experience section*/
 .experience-container {
-    height: 408px;
+    margin: 16px 0;
 }
